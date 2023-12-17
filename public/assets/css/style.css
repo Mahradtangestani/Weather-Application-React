@@ -1,0 +1,78 @@
+/*============= input of form =========== */
+.form-border {
+  border-top: none;
+  border-radius: 10px;
+  border-left: none;
+  border-right: none;
+  border-color: rgb(84, 2, 2);
+  background-color: rgba(255, 255, 255, 0.09);
+}
+.form-fontsize {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/* ==== temprature ==== */
+.temprature-box {
+  background-color: rgba(247, 247, 247, 0.264);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.fontsize-temprature {
+  font-size: 3rem;
+}
+/* === background of body === */
+.back_cold {
+  background: url(/assets/images/cold.jpg);
+}
+
+.back_warm {
+  background: url(/assets/images/warm.jpg);
+}
+
+.back_usual {
+  background: url(/assets/images/usual.jpg);
+}
+.app {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+/* ==== media ==== */
+@media (max-width: 600px) {
+  .back_cold {
+    background: url(/assets/images/cold-mini.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+  }
+  .back_warm {
+    background: url(/assets/images/warm-mini.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+  }
+  .back_usual {
+    background: url(/assets/images/usual-mini.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.back_cold .text-color{
+    color: #ffffff;
+}    
+.back_warm .text-color{
+    color: #eed284;
+}    
+.back_usual .text-color{
+    color: #175006;
+}
+.back_cold .tempspecial{
+  color: black;
+}
